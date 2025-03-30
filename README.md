@@ -1,6 +1,7 @@
 <h1 class="">RA JSON DB Admin Dashboard - Documentation</h1>
 <p>Developed by Roberto Aleman, <a href="ventics.com">ventics.com</a> </p>
 <p class="">This is a minimal web-based tool built with HTML5 and JavaScript to manage data stored in a JSON file. It allows you to view, add, edit, and delete records (in this case, product information) within a JSON database directly in your web browser.</p>
+<p> Do you need advice to implement an IT project, develop an algorithm to solve a real-world problem in your business, factory, or company? Write me right now and I'll advise you.</p>
 
 <h2 class="">Getting Started</h2>
 <ol class="">
