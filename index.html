@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA JSON DB Admin Dashboard Developed by Roberto Aleman, ventics.com </title>
+    <style>
+        body { font-family: sans-serif; }
+        #formulario-producto label { display: block; margin-bottom: 5px; }
+        #formulario-producto input { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; }
+        #lista-productos { margin-top: 20px; border-collapse: collapse; width: 100%; }
+        #lista-productos th, #lista-productos td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        #lista-productos th { background-color: #f2f2f2; }
+        .accion-btn { margin-right: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>RA JSON DB Admin Dashboard Developed by Roberto Aleman, ventics.com </h1>
+<p> Do you need advice to implement an IT project, develop an algorithm to solve a real-world problem in your business, factory, or company? Write me right now and I'll advise you.</p>
+    <div>
+        <label for="archivo-json">Select JSON file:</label>
+        <input type="file" id="archivo-json" accept=".json">
+    </div>
+
+    <h2>Add New Product</h2>
+    <form id="formulario-producto">
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="descripcion">Description:</label>
+        <input type="text" id="descripcion">
+
+        <label for="precio">Price:</label>
+        <input type="number" id="precio" step="0.01" required>
+
+        <label for="stock">Stock:</label>
+        <input type="number" id="stock" required>
+
+        <button type="button" onclick="agregarProducto()">Addr Product</button>
+        <button type="button" onclick="guardarCambios()">Save Data!</button>
+        <input type="hidden" id="producto-id-editar"> </form>
+
+    <h2>Products List</h2>
+    <table id="lista-productos">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name/th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-productos">
+            </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

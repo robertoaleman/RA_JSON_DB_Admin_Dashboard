@@ -1,0 +1,32 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Laptop de alto rendimiento",
+      "price": 1200,
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "description": "Mouse inalámbrico ergonómico",
+      "price": 25,
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "name": "Monitor",
+      "description": "Monitor LED 27 pulgadas",
+      "price": 300,
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "name": "Teclado",
+      "description": "Teclado retroiluminado",
+      "price": 35,
+      "stock": 3
+    }
+  ]
+}
